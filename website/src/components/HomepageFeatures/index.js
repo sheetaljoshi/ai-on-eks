@@ -33,6 +33,16 @@ const FeatureList = [
             </>
         ),
     },
+    {
+        title: 'Accelerator',
+        Svg: require('@site/static/img/accelerator.svg').default,
+        link: "/ai-on-eks/docs/accelerator",
+        description: (
+            <>
+                Accelerator for AI/ML on EKS<br/>
+            </>
+        ),
+    },
 ];
 
 function Feature({Svg, title, description, link}) {
